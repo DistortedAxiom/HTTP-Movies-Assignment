@@ -61,6 +61,39 @@ body {
   padding: 5px 10px;
   background-color: lightseagreen;
 }
+
+.update-button {
+  position: absolute;
+  margin-top: 100px;
+  top: 25px;
+  right: 25px;
+  border: 1px solid grey;
+  color: white;
+  padding: 5px 10px;
+  background-color: rgb(70, 26, 153);
+}
+
+.delete-button {
+  position: absolute;
+  margin-top: 100px;
+  top: 100px;
+  right: 25px;
+  border: 1px solid grey;
+  color: white;
+  padding: 5px 10px;
+  background-color: rgb(212, 59, 20);
+}
+
+.delete-button:hover {
+  background-color: green;
+  color: white;
+}
+
+.update-button:hover {
+  background-color: green;
+  color: white;
+}
+
 .save-button:hover {
   background-color: green;
   color: white;
@@ -74,4 +107,16 @@ body {
 .movie-warning {
   color: red;
   text-align: center;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
